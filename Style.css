@@ -1,0 +1,39 @@
+/* ベーススタイル */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+/* 見出しスタイル */
+h1 {
+  font-size: 3rem;
+  margin: 0;
+  padding: 1rem 2rem;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* 余白の設定 */
+h1 + p {
+  margin-top: 1rem;
+}
+
+/* リンクスタイル */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
